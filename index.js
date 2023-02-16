@@ -10,8 +10,8 @@ document.getElementById("btn-calc").addEventListener('click', function(){
 
     let mainincome = document.getElementById("main-income");
     let balance = document.getElementById("balance");
-    if(food.value === '' || rent.value === '' || clothes.value === '' ||
-       food.value < 1  || rent.value < 1 || clothes.value < 1){
+    if(food.value === '' || rent.value === '' || clothes.value === '' || mainincome.value === '' ||
+       food.value < 1  || rent.value < 1 || clothes.value < 1 || mainincome.value < 1){
         alert("Ya Habibi Why empty!!!");
 
     }
