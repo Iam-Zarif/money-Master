@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./media/title.png" type="image/x-icon">
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Money Bank</title>
+</head>
+<body class="bg-slate-800">
+    <header>
+        <section>
+            <h1 class="text-lime-500 font-mono text-5xl text-center mt-12 font-semibold">Money Master <section class=""><img class="w-24 inline mt-5" src="./media/money-bag.png" alt=""></section></h1>
+        </section>
+    </header>
+    <main>
+        <section class="flex justify-center items-center gap-20 mt-12">
+            <div>
+                    <img class="rounded-2xl" src="./media/calc-1.jpg" alt="">
+            </div>
+            <!--  -->
+            
+            <div class="border border-lime-400 shadow-lg shadow-lime-400 p-20 rounded-2xl">
+          <form action="#">
+            <h2 class="text-white text-center text-6xl font-serif">income</h2>
+            <div class="flex flex-col justify-center items-center content-center">
+  <div class="text-center mt-8">
+    <p class="text-lime-600 inline text-xl">income</p>
+    <input id="main-income" class="text-xl w-36 h-10 rounded-xl px-3" type="number" value="1000">
+  </div>
+  <h2 class="text-white text-center text-4xl font-serif mt-8">Expenses</h2>
+  <div class="text-center mt-5">
+    <p class="text-lime-600 inline text-xl">Food : </p>
+    <input type="number" id="food" class="text-xl w-36 h-10 rounded-xl px-3">
+  </div>
+  <div class="mt-5 text-center">
+    <p class="text-lime-600 inline text-xl">Rent : </p>
+    <input type="number" id="rent" class="text-xl w-36 h-10 rounded-xl px-3">
+  </div>
+  <div class="mt-5 text-center">
+    <p class="text-lime-600 inline text-xl">Cloth: </p>
+    <input type="number" id="clothes" class="text-xl w-36 h-10 rounded-xl px-3">
+  </div>
+</div>
+
+            <!--  -->
+            
+              <button id="btn-calc" class="mt-6 bg-lime-700 hover:bg-lime-500  py-4 px-16 text-2xl font-semibold text-white rounded-xl">Calculate</button>
+            
+            <!--  -->
+   <p class=" mt-8 text-lime-600 text-xl">Total Expenses: <span id="total-expense" class="text-white">00</span></p>
+   <p class="text-xl text-lime-600">Balance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="balance" class="text-white">00</span></p>
+   <!--  -->
+   <div class="mt-12">
+    <p class="inline text-lime-600 text-xl">Save: </p> <input id="save-input" type="number" class="w-20 h-10 rounded-xl px-2"><p class="inline text-white"> %</p> <button id="save" class="text-white bg-lime-800 hover:bg-lime-600 px-7 py-3 text-xl rounded-xl">Save</button>
+           
+<!--  -->
+<div class="mt-10 text-center">
+  <h2 class="text-lime-600 text-2xl">Saving Amount: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="saving-amount" class="text-white">00</span></h2>
+<h2 class="text-lime-600 text-2xl">Remaining Balance: <span id="remaining-balance" class="text-white">00</span></h2>
+</div>
+   </div>
+</div>
+
+        </section>
+    </main>
+    
+    <!--  -->
+<script src="./index.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
